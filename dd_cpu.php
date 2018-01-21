@@ -5,16 +5,15 @@
  * Original problem:
  * https://open.kattis.com/problems/alldifferentdirections
  *
- * The decision is implemented "CPU module" - funtion cpu(), the command system which consists of two instructions:
- * the "turn" and "walk"
+ * The decision is implemented "CPU module" - funtion cpu() (string :145, using in :116-:120 string),
+ * the command system which consists of two instructions: the "turn" and "walk"
  * "CPU" cpu() works like a regular processor: the input is command and data,
  * processor performs calculations in accordance with the submitted command.
  *
- * Measurement of the CPU speed (f-I cpu_freq_measurement() ) give
+ * Measurement of the CPU speed ( cpu_freq_measurement() ) give
  * around of 2 million instructions/sec
- * result varies around the value of 2 million instructions/sec
  *
- * Data in $data are left the first two groups of data from the source task to check the correctness of calculations
+ * Data in $data variable are left the first two groups of data from the source task to check the correctness of calculations
  * The last group (after the line "cpu") shows the operation of the processor when any combination of the commands "turn" and "walk"
  * Both measurements in this group should lead to a point with the coordinates (10,0)
  *
